@@ -1,0 +1,466 @@
+* {
+    font-family: poppins !important;
+    box-sizing: border-box;
+  }
+
+  .container-fluid {
+    width: 90%;
+  }
+
+  div#navbarSupportedContent>ul>li>a {
+    padding: 20px !important;
+    font-weight: 700;
+    color: #3e3e3e;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    margin: auto;
+  }
+
+  img.fb_social,
+  img.insta_social,
+  img.twi_social {
+    margin: 10px;
+  }
+
+  a.nav-link.active {
+    color: #da4689 !important;
+  }
+
+  .slider {
+    background-image: url('images/bg1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+
+  .slider_container {
+    text-align: center;
+    padding: 8em 2em;
+  }
+
+  h1.slider_heading1 {
+    font-size: 110px;
+  }
+
+  h2.slider_heading2 {
+    font-size: 50px;
+    margin-top: -0.3em;
+  }
+
+  button.becomeamember {
+    background: transparent;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid white;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-top: 1em;
+  }
+  section.section {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 5em 2em;
+}
+.image_box_sec {
+  width: 50%;
+  align-self: center!important;
+}
+.image_box_sec > img{
+width: 100%;
+}
+.content_box_sec {
+width: 50%;
+margin-left: 3em;
+margin-right: 2em;
+align-self:center!important;
+}
+  .content_box_sec > h2 {
+    font-size: 55px;
+    color: #282828;
+    line-height: 1.1em;
+    font-weight: 700;
+  }
+  .content_box_sec > ul > li{
+    font-size: 18px;
+    line-height: 42px;
+    color: #282828;
+    font-weight: 500;
+    
+  }
+  .content_box_sec > ul > li::marker {
+    font-size: 25px;
+    color: #da4588;
+}
+button.bemember_btn {
+  background: #da4588;
+  border: none;
+  padding: 20px 50px;
+  color: white;
+  text-transform: uppercase;
+}
+.section2{
+background-image: url('images/bg2.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+display: block;
+text-align: center;
+padding: 7em 2em;
+}
+.section2 > h2{
+font-size: 55px;
+}
+.section2 > h3, .section2 > p{
+font-size: 24px;
+line-height: 36px;
+color: #ffffff;
+font-weight: 500;
+}
+ul.internel_list > li {
+font-size: 16px;
+}
+.content_box_sec.content_box_sec1 > h3 {
+margin-top: 0.5em;
+font-size: 24px;
+line-height: 36px;
+color: #282828;
+font-weight: 500;
+}
+.section7,.section9 {
+background-color: #030131;
+color: white;
+display: flex;
+}
+.section7 > .content_box_sec7, .section9 > .content_box_sec9 {
+width: 55%;
+align-self: center;
+padding-left: 5em;
+padding-right: 2em;
+}
+.section7 > .content_box_sec7 > h2, .section9 > .content_box_sec9 > h2{
+margin-top: 0.5em;
+font-size: 50px;
+margin-bottom: 0.5em;
+}
+.content_box_sec7 >table > tbody > tr > td > .step {
+margin:1em 0em;
+margin-right: 1em;
+line-height: 2em;
+}
+.content_box_sec9 >table > tbody > tr > td > .step{
+margin:0.4em 0em;
+margin-right: 1em;
+line-height: 2em; 
+}
+.content_box_sec7 >table > tbody > tr > td > .step > span, .content_box_sec9 >table > tbody > tr > td > .step > span {
+  background: #da4588;
+  padding: 6px 13px 6px 13px;
+  border-radius: 50%;
+  font-size: 17px;
+  font-weight: 700;
+}
+.section7 > .image_box_sec7, .section9 > .image_box_sec9 {
+  width: 45%;
+  align-self: center;
+}
+.section7 > .image_box_sec7 > img, .section9 > .image_box_sec9 > img {
+width: 100%;
+}
+
+section.section8 {
+width: 90%;
+display: block;
+margin: 4em auto;
+}
+.galleryrow_sec8 {
+display: flex;
+}
+section.section8 > div > img{
+  width: 33%;
+  padding: 10px;
+}
+button.paypal_btn {
+  padding: 12px 30px;
+  border: none;
+  margin-right: 10px;
+}
+.section10 > h2{
+  font-size: 45px;
+  font-weight: 700;
+  color: #282828;
+  text-align: center;
+  margin: 1em 0em 0.5em 0em;
+}
+.box-container {
+display: flex;
+width: 90%;
+margin: auto;
+}
+.service_box {
+width: 33.33%;
+padding: 20px;
+}
+.service_box > img{
+width: 100%;
+}
+.service_box > h2{
+margin-top: 0.5em;
+font-size: 28px;
+color: #282828;
+font-weight: 700;
+}
+.service_box > p{
+font-size: 16px;
+color: #2d2d2d;
+font-weight: 500;
+}
+.service_box > h3{
+font-size: 18px;
+color: #da4588;
+font-weight: 500;
+}
+.section11 > img{
+width: 100%;
+margin: 2em auto;
+}
+.section12 > h2{
+font-size: 40px;
+color: #030232;
+font-weight: 700;
+text-align: center;
+margin-bottom: 1em;
+margin-left: 2em;
+  margin-right: 2em;
+}
+section.section12 {
+width: 65%;
+display: block;
+margin: 3em auto;
+}
+.sub_section {
+display: flex;
+}
+.contactus, .image_box_sec12 {
+width: 50%;
+align-self: center;
+}
+
+.contactus {
+background-color: #030131;
+color: white;
+padding: 25px;
+margin-right: 2%;
+}
+
+.image_box_sec12 > img {
+width: 100%;
+}
+
+textarea, #name, #email{
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+}
+
+#submit_btn {
+background: #da4588;
+border: none;
+padding: 20px 50px;
+color: white;
+text-transform: uppercase;
+}
+.footer_container {
+background-color: black;
+padding: 1em;
+padding-top: 1.5em;
+text-align: center;
+}
+.footer_container > h2 {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.mobile_on{
+display: none;
+}
+@media only screen and (max-width: 1150px) {
+.content_box_sec > h2 ,.section7 > .content_box_sec7 > h2, .section9 > .content_box_sec9 > h2{
+  font-size: 44px;
+}
+section.section12{
+  width: 85%;
+}
+.content_box_sec > ul > li{
+  line-height: 30px;
+}
+section.section{
+  padding: 4em 0em;
+}
+.section7 > .content_box_sec7, .section9 > .content_box_sec9{
+  padding-left: 3em;
+}
+.content_box_sec7 >table > tbody > tr > td > .step,.content_box_sec9 >table > tbody > tr > td > .step{
+  line-height: 1.6em;
+  margin: 0em 0.5em;
+}
+button.bemember_btn, #submit_btn{
+  padding: 15px 35px;
+}
+button.paypal_btn{
+  padding: 7px 30px;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+.content_box_sec > h2, .section7 > .content_box_sec7 > h2, .section9 > .content_box_sec9 > h2{
+  font-size: 26px;
+}
+.service_box > h2{
+  font-size: 22px;
+}
+h1.slider_heading1{
+  font-size: 85px;
+}
+h2.slider_heading2, .section2 > h2, .section10 > h2{
+  font-size: 45px;
+}
+.content_box_sec > ul > li{
+  line-height: 25px;
+}
+.content_box_sec.content_box_sec1 > h3 {
+  font-size: 18px;
+  line-height: 25px;
+}
+.content_box_sec.content_box_sec1 > p {
+  margin-bottom: 5px;
+}
+section.section12 {
+  width: 95%;
+}
+button.paypal_btn {
+  padding: 15px 0px;
+}
+button.paypal_btn > img{
+  width: 60%;
+}
+button.bemember_btn, #submit_btn{
+  padding: 15px 20px;
+}
+.section7, .section9{
+  padding-bottom: 1em;
+}
+}
+@media only screen and (max-width: 768px) {
+section.section {
+flex-direction: column;
+width: 100%;
+}
+.image_box_sec{
+width: 100%;
+}
+.content_box_sec{
+width: 100%;
+margin-top: 2em;
+}
+.section2{
+padding: 5em 1em;
+}
+.section7{
+padding-bottom: 0;
+}
+.section7, .section9 {
+flex-direction: column;
+}
+.section7 > .content_box_sec7, .section9 > .content_box_sec9{
+width: 100%;
+}
+.section7 > .image_box_sec7, .section9 > .image_box_sec9{
+width: 100%;
+}
+.box-container{
+width: 100%;
+flex-direction: column;
+}
+.service_box{
+width: 100%;
+}
+.section12 > h2{
+margin: 1em;
+}
+.sub_section {
+display: flex;
+flex-direction: column;
+}
+.sub_section > div{
+width: 100%;
+}
+.contactus{
+margin-right: 0;
+}
+section.section{
+padding: 2em;
+}
+.section7 > .content_box_sec7, .section9 > .content_box_sec9{
+padding: 1em;
+}
+.content_box_sec7 >table > tbody > tr > td > .step, .content_box_sec9 >table > tbody > tr > td > .step {
+line-height: 1.6em;
+margin: 1em 0.5em;
+}
+h1.slider_heading1{
+font-size: 60px;
+}
+.content_box_sec > h2, .section7 > .content_box_sec7 > h2, .section9 > .content_box_sec9 > h2,.service_box > h2{
+font-size: 30px;
+}
+h2.slider_heading2, .section2 > h2, .section10 > h2, .section12 > h2{
+font-size: 32px;
+}
+.section2 > h3, .section2 > p{
+font-size: 18px;
+}
+
+
+
+.mobile_on{
+display: block;
+}
+.desktop_off{
+display: none;
+}
+}
+@media only screen and (max-width: 480px) {
+section.section{
+  padding: 1em;
+}
+.section2{
+  padding: 2em 0em;
+}
+h1.slider_heading1{
+  font-size: 40px;
+}
+h2.slider_heading2, .section2 > h2, .section10 > h2, .section12 > h2,.content_box_sec > h2, .section7 > .content_box_sec7 > h2, .section9 > .content_box_sec9 > h2, .service_box > h2{
+  font-size: 26px;
+}
+.slider_container {
+  padding: 4em 2em;
+}
+button.paypal_btn {
+padding: 15px 5px;
+margin-bottom: 9px;
+}
+.section12 > h2 {
+margin: 0em;
+margin-bottom: 1em;
+}
+
+section.section12{
+margin: 1em auto;
+}
+}
